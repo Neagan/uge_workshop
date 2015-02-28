@@ -30,7 +30,7 @@ ll
 ls -x
 ls -X
 man ls
-ls -1
+ls -1                               // ls lists directory
 ls -R
 ls -m
 ls -i
@@ -46,17 +46,17 @@ ls -lt
 ls -l
 ls -t
 git --version
-which ruby
+which ruby                          // which display directory of file
 which git
 which uname
-echo $PATH
+echo $PATH                          // echo displays
 echo $EDITOR
 uname
 subl
 brew info fish
 brew info
-brew doctor
-brew update
+brew doctor                         // check status of homebrew
+brew update                         // update homebrew
 git config --global user.name 'Nick Eagan'
 git config --global user.email 'neagan26@gmail.com'
 curl -fsSL http://git.io/QxUaOQ | sh
