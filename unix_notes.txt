@@ -1,0 +1,83 @@
+History of Commands at Code Fellows UNIX & Git
+
+history | sort | less               // pipe redirects output
+history | sort
+man man                             // man opens manual for command
+history | less
+history
+cd                                  // cd changes directory (to home if blank)
+cd Development/kangaroo_rewards/
+cd Documents/Programming
+ls
+cd /Documents/Programming
+pwd
+cd ../../
+cd ../Grad\ School/
+cd ..                               // .. jumps up one directory
+cd ...
+ls ..
+cd Programming/
+cd pr
+cd .
+cd kangaroo_rewards/
+cd Development
+cd iTunes
+cd Music
+cd /
+cd /users/neagan/
+la
+ll
+ls -x
+ls -X
+man ls
+ls -1
+ls -R
+ls -m
+ls -i
+ls -G
+ls -d
+ls -B
+ls -A
+ls -S
+ls -ltr
+ls -tr
+ls -r
+ls -lt
+ls -l
+ls -t
+git --version
+which ruby
+which git
+which uname
+echo $PATH
+echo $EDITOR
+uname
+subl
+brew info fish
+brew info
+brew doctor
+brew update
+git config --global user.name 'Nick Eagan'
+git config --global user.email 'neagan26@gmail.com'
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.name 'neagan'
+brew install git
+subl /etc/paths
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+help expand-variable
+ruby -e "(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+ruby -e "curl -fsSL https://raw.github.com/Homebrew/install/master/install"
+chsh -s /usr/local/bin/fish
+chsh -s /bin/bash neagan
+chsh -s /usr/local/bin/bash
+chsh -s /usr/local/bin
+brew prune
+curl -fsSL http://git.io/QxUaQQ | sh
+ech $PATH
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
